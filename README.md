@@ -13,6 +13,7 @@ If the price of the asset increased overnight, the trade will be profitable. If 
 The hope is that favorable price changes will occur during the overnight holding period (positive overnight gap).
 
 The strategy is based on the observation that stocks often exhibit different behavior during regular trading hours compared to when the market is closed (overnight).
+
 There are a couple of main reasons that explain the rationale of the overnight strategy:
 1. Earning Announcements and News Events: Major announcements, such as earnings reports, regulatory decisions, interest rate hikes, or other significant news, often occur when markets are closed. If the news is positive, it could lead to a higher opening price the next day, whereas negative news can cause a gap down at the opening.
 2. Reduced Trading Volume: During the overnight period, trading volume is generally lower. This means less liquidity, which can lead to more price volatility. With the right risk management, investors can take advantage of this higher volatility for profit.
@@ -28,11 +29,8 @@ Steps of the MA crossover strategy:
 3. Enter the Trade: Upon a bullish crossover (the fast MA crosses above the slow MA), the trader would enter a long position. Conversely, upon a bearish crossover (the fast MA crosses below the slow MA), the trader would enter a short position.
 4. Exit the Trade: The trader typically exits the trade when the opposite crossover happens. That is, if he bought on a bullish crossover, he would sell when a bearish crossover happens, and vice versa.
 
-The strategy is based on the observation that Moving Averages smooth out price data to form a single flowing line, making it much easier to spot trends. A rising moving average generally indicates an uptrend, while a falling moving average indicates a downtrend.
+The strategy is based on the observation that Moving Averages smooth out price data to form a single flowing line, making it much easier to spot trends. A rising moving average generally indicates an uptrend, while a falling moving average indicates a downtrend. With this strategy, we are aiming to take advantage of shifts in these trends, captured by the crossings of the MAs.
+
 Here's the rationale of the MA crossover strategy:
-
-Trend Identification: 
-
-Signal Generation: When the fast moving average crosses above the slow moving average, it generates a bullish (buy) signal, indicating that the short-term trend is moving higher than the long-term trend and could continue. When the fast moving average crosses below the slow moving average, it generates a bearish (sell) signal, indicating that the short-term trend is moving lower than the long-term trend and could continue.
-
-
+1. Signal Generation: When the fast moving average crosses above the slow moving average, it generates a bullish (buy) signal, indicating that the short-term trend is moving higher than the long-term trend and could continue. When the fast moving average crosses below the slow moving average, it generates a bearish (sell) signal, indicating that the short-term trend is moving lower than the long-term trend and could continue.
+2. Momentum Confirmation: The MA crossover can also be seen as a confirmation of changing momentum in the market. The crossover of a fast MA over a slow MA may suggest increasing upward momentum, while a crossover below might indicate growing downward momentum.
