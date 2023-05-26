@@ -1,3 +1,7 @@
+# 2nd strategy: Moving Average Crossover strategy
+# We buy when the short-term MA rises above the long-term MA, we sell when short MA falls below long MA.
+
+# Import needed libraries
 import yfinance as yf
 import pandas as pd
 import numpy as np
