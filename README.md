@@ -34,3 +34,13 @@ The strategy is based on the observation that Moving Averages smooth out price d
 Here's the rationale of the MA crossover strategy:
 1. Signal Generation: When the fast moving average crosses above the slow moving average, it generates a bullish (buy) signal, indicating that the short-term trend is moving higher than the long-term trend and could continue. When the fast moving average crosses below the slow moving average, it generates a bearish (sell) signal, indicating that the short-term trend is moving lower than the long-term trend and could continue.
 2. Momentum Confirmation: The MA crossover can also be seen as a confirmation of changing momentum in the market. The crossover of a fast MA over a slow MA may suggest increasing upward momentum, while a crossover below might indicate growing downward momentum.
+
+
+More extended comments about the code is integrated to the code itself. 
+Source of code: ChatGPT helped me to come up with the code.
+
+About the results, we see that both of strategies generally lead to a lower return than the simple Buy & Hold strategy. 
+For the Overnight strategy, the main issue is the big transaction costs that occurs when buying and selling stocks every day.
+For the MA crossover strategy, the main issue is the reaction time. To mitigate it, we should find another filter to exit the positions earlier.
+
+Overall, I really appreciate to try to implement these strategies. I realized how hard it can be, and it gave me a great insight into it!
