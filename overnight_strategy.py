@@ -1,6 +1,7 @@
 # 1st strategy: Overnight strategy
 # We buy at the end of each day, and sell at the beginning of each following day.
 
+# Import needed libraries
 import yfinance as yf
 import pandas as pd
 import matplotlib.pyplot as plt
