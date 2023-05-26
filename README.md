@@ -1,4 +1,6 @@
 # programming-project
+Julien Hämmerli - Student Nr 19-422-625
+
 Backtest of Overnight strategy and Moving Average Crossover strategy.
 
 In this project, I will implement 2 trading strategies. The first strategy is the Overnight strategy, and the second is the Moving Average Crossover strategy.
